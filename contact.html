@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <section>
+            <div border="1" style="margin:50px 200px; border-style: solid;">
+                <h1 style="font-size:x-large;margin-left: 80px">Zuitt IT Solutions</h1>
+                <h3 style="margin-left: 80px">Products Offered</h3>
+                <table border="1" style="margin-left: 9%; margin-bottom: 2%; border-style: double;">
+                    <thead>
+                        <tr>
+                            <th>Package</th>
+                            <th>Price</th>
+                            <th colspan="3">Description</th>
+                        </tr>
+                        <tr>
+                            <td>Basic</td>
+                            <td>&#8369; 500.00</td>
+                            <td colspan="3">Package includes a fully functional website with desired specifications.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Premium</td>
+                            <td>&#8369; 1000.00</td>
+                            <td colspan="3">Enjoy all the benefits of the basic package and also includes site support
+                                and maintenance.</td>
+                        </tr>
+                        <tr>
+                            <th colspan="5">Additional features after initial project is inclusive of charges</th>
+                        </tr>
+                    </thead>
+                </table>
+        </section>
+
+        <section>
+
+            <div style="text-align: left;">
+                <form>
+                    <label>First Name:</label>
+                    <br>
+                    <input type="text" required autocomplete>
+                    <br>
+                    <label>Last Name:</label>
+                    <br>
+                    <input type="text" required autocomplete>
+                    <br>
+                    <label>Email:</label>
+                    <br>
+                    <input type="email" required autocomplete>
+                    <br>
+                    <label>Contact Number:</label>
+                    <br>
+                    <input type="number" required autocomplete>
+                    <br>
+                    <label>Service Type: </label>
+                    <br>
+                    <select name="serviceType" id="serviceType">
+                        <option value="Front End Programming">Front End Programming</option>
+                    </select>
+                    <br>
+                    <label>Preffered Contact: </label>
+                    <br>
+                    <input type="checkbox" name="email" id="email" value="email">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="checkbox" name="phone" id="phone" value="phone">
+                    <label for="phone">Phone</label>
+                    <br>
+                    <label>Package: </label>
+                    <br>
+                    <input type="radio" name="basic" value="basic" id="basic">
+                    <label for="basic">Basic</label>
+                    <br>
+                    <input type="radio" name="premium" value="premium" id="premium">
+                    <label for="premium">Premium</label>
+                    <br><br>
+                    <label for="notes">Message</label>
+                    <br>
+                    <textarea id="notes" cols="30" rows="10"></textarea>
+                    <br>
+                    <button type="submit">Send Inquiry</button>
+                    <br>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+
+
+
+        </section>
+    </header>
+
+</body>
+
+</html>
